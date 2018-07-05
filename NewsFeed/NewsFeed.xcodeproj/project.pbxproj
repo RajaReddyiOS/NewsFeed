@@ -20,6 +20,7 @@
 		18BB4E4B20EDA95C002F18E5 /* NewsFeedSourceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB4E4A20EDA95C002F18E5 /* NewsFeedSourceVC.swift */; };
 		18BB4E4D20EDA996002F18E5 /* NewsFeedSourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB4E4C20EDA996002F18E5 /* NewsFeedSourceCell.swift */; };
 		18BB4E4F20EDB2D5002F18E5 /* DrawBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BB4E4E20EDB2D5002F18E5 /* DrawBadgeView.swift */; };
+		35E7EE3D20EDE193008D91E0 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E7EE3C20EDE193008D91E0 /* TickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		18BB4E4A20EDA95C002F18E5 /* NewsFeedSourceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedSourceVC.swift; sourceTree = "<group>"; };
 		18BB4E4C20EDA996002F18E5 /* NewsFeedSourceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedSourceCell.swift; sourceTree = "<group>"; };
 		18BB4E4E20EDB2D5002F18E5 /* DrawBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBadgeView.swift; sourceTree = "<group>"; };
+		35E7EE3C20EDE193008D91E0 /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			children = (
 				18BB4E4C20EDA996002F18E5 /* NewsFeedSourceCell.swift */,
 				18BB4E4E20EDB2D5002F18E5 /* DrawBadgeView.swift */,
+				35E7EE3C20EDE193008D91E0 /* TickView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				18BB4E4F20EDB2D5002F18E5 /* DrawBadgeView.swift in Sources */,
 				180CCB7B20ED1D6C0093A35A /* NewsFeedSourceVM.swift in Sources */,
 				180CCB4B20ED157F0093A35A /* NewsFeed.xcdatamodeld in Sources */,
+				35E7EE3D20EDE193008D91E0 /* TickView.swift in Sources */,
 				18BB4E4B20EDA95C002F18E5 /* NewsFeedSourceVC.swift in Sources */,
 				18BB4E4D20EDA996002F18E5 /* NewsFeedSourceCell.swift in Sources */,
 				180CCB4320ED157F0093A35A /* AppDelegate.swift in Sources */,
