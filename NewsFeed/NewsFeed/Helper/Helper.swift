@@ -25,4 +25,9 @@ extension UIView {
         layer.shadowRadius = shadowRadius
     }
     
+    func applyBorder(_ radius:CGFloat = 1, borderColor: UIColor = UIColor.gray) {
+        layer.borderWidth = radius
+        layer.borderColor = borderColor.cgColor
+    }
+    
 }

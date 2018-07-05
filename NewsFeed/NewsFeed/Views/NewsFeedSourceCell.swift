@@ -2,14 +2,14 @@
 //  NewsFeedSourceCell.swift
 //  NewsFeed
 //
-//  Created by Raja on 04/07/18.
+//  Created by Raja on 05/07/18.
 //  Copyright © 2018 Raja. All rights reserved.
 //
 
 import UIKit
 
-class NewsFeedSourceCell: UITableViewCell {
-
+class NewsFeedSourceCell: UICollectionViewCell {
+    
     @IBOutlet weak var sourceLbl:UILabel!
     
     @IBOutlet weak var containerView:UIView!
@@ -17,14 +17,9 @@ class NewsFeedSourceCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        containerView.applyShadow()
+        containerView.applyBorder()
         
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        
-    }
-
+    
+    
 }
